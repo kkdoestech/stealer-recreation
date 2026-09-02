@@ -1,0 +1,11 @@
+[project]
+name = "stealer-recreation"
+version = "0.1.0"
+description = "Poker preflop steal-range EV calculator — built from scratch"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+# Tell pytest where our source code lives so imports work without installing
+pythonpath = ["."]
+testpaths = ["tests"]
+
